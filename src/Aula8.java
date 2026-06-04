@@ -59,6 +59,21 @@ public class Aula8 {
             • hashCode - retorna um código hash do objeto
             • toString - converte o objeto para string
 
+            MEMBROS ESTATICOS:
+            Ou membros de Classe:  são opostos dos membros de instancia
+
+            São membros que fazem sentido independentemente de objetos. Não precisam de objetos para serem chamados.
+            São Chamados a partir do proprio nome da classe.
+
+            Aplicaçoes comuns: Classes utilitárias (Math.sqrt é uma classe utilitaria estatica), declaraçoes de constantes.
+
+            Clsse que apenas tem membros estaticos => Classe estatica.
+
+            
+
+
+
+
             
 
                         
