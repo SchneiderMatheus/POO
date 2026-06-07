@@ -6,6 +6,10 @@ public class Aula9 {
         Scanner sc = new Scanner(System.in);
         Locale.setDefault(Locale.US);
 
+        //construçoes, palavra this, sobrecarga e ENCAPSULAMENTO: 
+
+        /* comando new = construtor */
+
         
     }
 }
