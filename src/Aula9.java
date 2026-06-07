@@ -8,7 +8,9 @@ public class Aula9 {
 
         //construçoes, palavra this, sobrecarga e ENCAPSULAMENTO: 
 
-        /* comando new = construtor */
+        /* comando new = construtor
+        mais de um construtor por classe == sobrecarga
+         */
 
         
     }
