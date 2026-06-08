@@ -6,42 +6,72 @@ public class Aula9 {
         Scanner sc = new Scanner(System.in);
         Locale.setDefault(Locale.US);
 
-        //construçoes, palavra this, sobrecarga e ENCAPSULAMENTO: 
+        // construçoes, palavra this, sobrecarga e ENCAPSULAMENTO:
 
-        /* comando new = construtor
-        mais de um construtor por classe == sobrecarga
-
-        palavra this = referencia para o proprio objeto
-        -> diferenciar atributos de variaveis locais
-        -> passar o proprio objeto como argumento na chamada de um metodo ou construtor
-
-
-        Sobrecarga = é um recurso que uma classe poussiu de oferecer mais de uma operaçao com o mesmo nome,
-        porem com diferentes listas de paremetros;
-
-        proposta de melhoria no projeto atividadeConstrutores;
-
-        Vamos criar um contrutor opcional, o qual recebe apenas nome e preço do produto. A quantidade em estoque deste novo
-        produto, por padrão, é zero.
-
-        È possivel tbm incluir um construtor pedrão.
-
-
-        Encapsulamento
-        • É um princípio que consiste em esconder detalhes de implementação de uma classe, expondo apenas
-        operações seguras e que mantenhamos objetos em um estado consistente.
-
-        • Regra de ouro: o objeto deve sempre estar em um estado consistente, e a própria classe deve garantir isso.
-
-        Regra geral básica
-        • Um objeto NÃO deve expor nenhum atributo (modificador de acesso
-        private)
-        • Os atributos devem ser acessados por meio de métodos get e set
-        • Padrão JavaBeans: https://en.wikipedia.org/wiki/JavaBeans
-
-
+        /*
+         * comando new = construtor
+         * mais de um construtor por classe == sobrecarga
+         * 
+         * palavra this = referencia para o proprio objeto
+         * -> diferenciar atributos de variaveis locais
+         * -> passar o proprio objeto como argumento na chamada de um metodo ou
+         * construtor
+         * 
+         * 
+         * Sobrecarga = é um recurso que uma classe poussiu de oferecer mais de uma
+         * operaçao com o mesmo nome,
+         * porem com diferentes listas de paremetros;
+         * 
+         * proposta de melhoria no projeto atividadeConstrutores;
+         * 
+         * Vamos criar um contrutor opcional, o qual recebe apenas nome e preço do
+         * produto. A quantidade em estoque deste novo
+         * produto, por padrão, é zero.
+         * 
+         * È possivel tbm incluir um construtor pedrão.
+         * 
+         * 
+         * Encapsulamento
+         * • É um princípio que consiste em esconder detalhes de implementação de uma
+         * classe, expondo apenas
+         * operações seguras e que mantenhamos objetos em um estado consistente.
+         * 
+         * • Regra de ouro: o objeto deve sempre estar em um estado consistente, e a
+         * própria classe deve garantir isso.
+         * 
+         * Regra geral básica
+         * • Um objeto NÃO deve expor nenhum atributo (modificador de acesso
+         * private)
+         * • Os atributos devem ser acessados por meio de métodos get e set
+         * • Padrão JavaBeans: https://en.wikipedia.org/wiki/JavaBeans
+         * 
+         * Padrão para implementação de getters e setters
+         * private String name;
+         * private double price;
+         * public String getName() {
+         * return name;
+         * }
+         * public void setName(String name) {
+         * this.name = name;
+         * }
+         * public double getPrice() {
+         * return price;
+         * }
+         * public void setPrice(double price) {
+         * this.price = price;
+         * }
+         * 
+         * MODIFICADORES DE ACESSO:
+         *  https://docs.oracle.com/javase/tutorial/java/javaOO/accesscontrol.html
+            • private: o membro só pode ser acessado na própria classe
+            • (nada): o membro só pode ser acessado nas classes do mesmo pacote
+            • protected: o membro só pode ser acessado no mesmo pacote, bem como em
+            subclasses de pacotes diferentes
+            • public: o membro é acessado por todas classes (ao menos que ele resida em
+            um módulo diferente que não exporte o pacote onde ele está)
+            https://stackoverflow.com/questions/215497/in-java-difference-between-package-private-public-protected-and-private
+         * 
          */
 
-        
     }
 }
