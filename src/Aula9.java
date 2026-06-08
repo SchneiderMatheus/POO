@@ -10,6 +10,11 @@ public class Aula9 {
 
         /* comando new = construtor
         mais de um construtor por classe == sobrecarga
+
+        palavra this = referencia para o proprio objeto
+        -> diferenciar atributos de variaveis locais
+        -> passar o proprio objeto como argumento na chamada de um metodo ou construtor
+        
          */
 
         
