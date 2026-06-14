@@ -72,6 +72,6 @@ public class Aula9 {
             https://stackoverflow.com/questions/215497/in-java-difference-between-package-private-public-protected-and-private
          * 
          */
-
+        sc.close();
     }
 }
