@@ -44,6 +44,11 @@ momento próximo pelo garbage collector            // seu escopo de execução �
         pelo programa (no heap), desalocando aqueles que não estão mais
         sendo utilizados.
         
+        Resumo
+        • Objetos alocados dinamicamente, quando não possuem mais
+        referência para eles, serão desalocados pelo garbage collector
+        • Variáveis locais são desalocadas imediatamente assim que seu escopo
+        local sai de execução
         */
 
             int p;
