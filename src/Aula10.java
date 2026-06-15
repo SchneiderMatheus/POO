@@ -43,7 +43,7 @@ momento próximo pelo garbage collector            // seu escopo de execução �
         • O garbage collector monitora os objetos alocados dinamicamente
         pelo programa (no heap), desalocando aqueles que não estão mais
         sendo utilizados.
-        
+
         Resumo
         • Objetos alocados dinamicamente, quando não possuem mais
         referência para eles, serão desalocados pelo garbage collector
@@ -51,8 +51,8 @@ momento próximo pelo garbage collector            // seu escopo de execução �
         local sai de execução
         */
 
-            int p;
-            System.out.println(p); // not initialized
+            int p=10; //gota initialize
+            System.out.println(p); 
        sc.close();
     }
     
