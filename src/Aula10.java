@@ -49,9 +49,11 @@ momento próximo pelo garbage collector            // seu escopo de execução �
         referência para eles, serão desalocados pelo garbage collector
         • Variáveis locais são desalocadas imediatamente assim que seu escopo
         local sai de execução
+
+
         */
 
-            int p=10; //gota initialize
+            int p=10; //gotta initialize
             System.out.println(p); 
        sc.close();
     }
