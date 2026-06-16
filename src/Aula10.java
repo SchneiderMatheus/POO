@@ -1,5 +1,8 @@
 import java.util.Locale;
 import java.util.Scanner;
+
+import entities.Product;
+
 import java.util.Arrays;
 
 public class Aula10 {
@@ -68,7 +71,7 @@ momento próximo pelo garbage collector            // seu escopo de execução �
 
          Problema exemplo de vetor: Fazer um programa para ler um número inteiro N e a altura de N
         pessoas. Armazene as N alturas em um vetor. Em seguida, mostrar a altura média dessas pessoas.
-        */
+        
         double soma =0;
         System.out.println("Digite o numero de pessoas que gostaria de anotar a altura: ");
         int n = sc.nextInt();
@@ -82,7 +85,31 @@ momento próximo pelo garbage collector            // seu escopo de execução �
         double media = soma/n;
         System.out.println("Aqui está a sua lista: "+Arrays.toString(vetor));
         System.out.println("Essa é a média das alturas: "+media);
-            
+
+        Fazer um programa para ler um número inteiro N e os dados (nome e
+        preço) de N Produtos. Armazene os N produtos em um vetor. Em
+        seguida, mostrar o preço médio dos produtos.
+        */
+        System.out.println("Digite  quantidade de produtos desejados: ");
+        int n =sc.nextInt();
+        Product [] vect = new Product[n];
+
+        for(int i =0; i < vect.length; i++) {
+            System.out.println("Nome do produto: ");
+            String name = sc.nextLine();
+            sc.nextLine();
+            System.out.println("Preço do produto: ");
+            double price = sc.nextDouble();
+            vect[i] = new Product(name, price); // temos que instanciar assim pq cada "casinha" do vetor vai conter tomas infos do produto
+        }
+        double soma =0;
+        for(int i=0; i<vect.length; i++) {
+            soma += vect[i].getPrice();
+        }
+        double media = soma/vect.length;
+
+        System.out.println("Preço Médio: "+media);
+
        sc.close();
     }
     
