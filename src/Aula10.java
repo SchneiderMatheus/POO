@@ -80,7 +80,8 @@ momento próximo pelo garbage collector            // seu escopo de execução �
             soma += vetor[i];
         }
         double media = soma/n;
-        System.out.println(media);
+        System.out.println("Aqui está a sua lista: "+Arrays.toString(vetor));
+        System.out.println("Essa é a média das alturas: "+media);
             
        sc.close();
     }
