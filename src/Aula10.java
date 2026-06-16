@@ -1,5 +1,6 @@
 import java.util.Locale;
 import java.util.Scanner;
+import java.util.Arrays;
 
 public class Aula10 {
     public static void main(String[] args) {
@@ -68,8 +69,17 @@ momento próximo pelo garbage collector            // seu escopo de execução �
          Problema exemplo de vetor: Fazer um programa para ler um número inteiro N e a altura de N
         pessoas. Armazene as N alturas em um vetor. Em seguida, mostrar a altura média dessas pessoas.
         */
-       
+        String resultado = "";
+        System.out.println("Digite o numero de pessoas que gostaria de anotar a altura: ");
+        int n = sc.nextInt();
+        double [] vetor = new double [n];
 
+        for(int i= 0; i<n; i++){
+            System.out.println("digite a altura a ser adicionada a sua lista: ");
+            vetor[i]=sc.nextDouble();
+            resultado += vetor[i]+" ";
+        }
+        System.out.println(resultado);
             
        sc.close();
     }
