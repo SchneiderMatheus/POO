@@ -69,7 +69,7 @@ momento próximo pelo garbage collector            // seu escopo de execução �
          Problema exemplo de vetor: Fazer um programa para ler um número inteiro N e a altura de N
         pessoas. Armazene as N alturas em um vetor. Em seguida, mostrar a altura média dessas pessoas.
         */
-        String resultado = "";
+        double soma =0;
         System.out.println("Digite o numero de pessoas que gostaria de anotar a altura: ");
         int n = sc.nextInt();
         double [] vetor = new double [n];
@@ -77,9 +77,10 @@ momento próximo pelo garbage collector            // seu escopo de execução �
         for(int i= 0; i<n; i++){
             System.out.println("digite a altura a ser adicionada a sua lista: ");
             vetor[i]=sc.nextDouble();
-            resultado += vetor[i]+" ";
+            soma += vetor[i];
         }
-        System.out.println(resultado);
+        double media = soma/n;
+        System.out.println(media);
             
        sc.close();
     }
