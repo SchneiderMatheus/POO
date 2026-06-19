@@ -129,7 +129,16 @@ momento próximo pelo garbage collector            // seu escopo de execução �
         • Boxing e unboxing é natural na linguagem
         • Uso comum: campos de entidades em sistemas de informação (IMPORTANTE!)
         • Pois tipos referência (classes) aceitam valor null e usufruem dos recursos OO
-        
+
+        LAÇO 'for each'
+        Sintaxe:
+            para cada objeto apelido na coleção faça: 
+            for (tipo apelido : coleção){
+                comando1
+                comando2
+                }
+
+
          */
 
        sc.close();
