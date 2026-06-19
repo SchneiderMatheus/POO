@@ -138,13 +138,32 @@ momento próximo pelo garbage collector            // seu escopo de execução �
                 comando2
                 }
         Leitura: "para cada objeto 'obj' contido em vect, faça:"
-        
+
         String[] vect = new String[] {"Maria", "Bob", "Alex"};
         for (int i=0; i< vect.length; i++) {
         System.out.println(vect[i]);
         }
         for (String obj : vect) {
         System.out.println(obj);
+
+
+        LISTAS:
+
+        Lista é uma estrutura de dados:
+        • Homogênea (dados do mesmo tipo)
+        • Ordenada (elementos acessados por meio de posições)
+        • Inicia vazia, e seus elementos são alocados sob demanda
+        • Cada elemento ocupa um "nó" (ou nodo) da lista
+
+        • Tipo (interface): List
+        • Classes que implementam: ArrayList, LinkedList, etc.
+
+        • Vantagens:
+        • Tamanho variável
+        • Facilidade para se realizar inserções e deleções
+        
+        • Desvantagens:
+        • Acesso sequencial aos elementos *
 
          */
 
