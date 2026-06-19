@@ -109,6 +109,28 @@ momento próximo pelo garbage collector            // seu escopo de execução �
         double media = soma/vect.length;
 
         System.out.println("Preço Médio: "+media);
+        /* Boxing
+        • É o processo de conversão de um objeto tipo valor para um objeto
+        tipo referência compatível. 
+        exemplo: 
+        int x = 20; (tipo valor)
+        Object obj = x;
+
+        • É o processo de conversão de um objeto tipo referência para um
+        objeto tipo valor compatível
+
+        int x = 20;
+        Object obj = x;
+        Unboxing
+        int y = (int) obj;
+
+        Wrapper classes
+        • São classes equivalentes aos tipos primitivos
+        • Boxing e unboxing é natural na linguagem
+        • Uso comum: campos de entidades em sistemas de informação (IMPORTANTE!)
+        • Pois tipos referência (classes) aceitam valor null e usufruem dos recursos OO
+        
+         */
 
        sc.close();
     }
