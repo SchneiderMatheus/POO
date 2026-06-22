@@ -90,25 +90,29 @@ momento próximo pelo garbage collector            // seu escopo de execução �
         preço) de N Produtos. Armazene os N produtos em um vetor. Em
         seguida, mostrar o preço médio dos produtos.
         */
-        System.out.println("Digite  quantidade de produtos desejados: ");
-        int n =sc.nextInt();
-        Product [] vect = new Product[n];
 
-        for(int i =0; i < vect.length; i++) {
-            System.out.println("Nome do produto: ");
-            String name = sc.nextLine();
-            sc.nextLine();
-            System.out.println("Preço do produto: ");
-            double price = sc.nextDouble();
-            vect[i] = new Product(name, price); // temos que instanciar assim pq cada "casinha" do vetor vai conter todas infos do produto
-        }
-        double soma =0;
-        for(int i=0; i<vect.length; i++) {
-            soma += vect[i].getPrice();
-        }
-        double media = soma/vect.length;
 
-        System.out.println("Preço Médio: "+media);
+        // System.out.println("Digite  quantidade de produtos desejados: ");
+        // int n =sc.nextInt();
+        // Product [] vect = new Product[n];
+
+        // for(int i =0; i < vect.length; i++) {
+        //     System.out.println("Nome do produto: ");
+        //     String name = sc.nextLine();
+        //     sc.nextLine();
+        //     System.out.println("Preço do produto: ");
+        //     double price = sc.nextDouble();
+        //     vect[i] = new Product(name, price); // temos que instanciar assim pq cada "casinha" do vetor vai conter todas infos do produto
+        // }
+        // double soma =0;
+        // for(int i=0; i<vect.length; i++) {
+        //     soma += vect[i].getPrice();
+        // }
+        // double media = soma/vect.length;
+
+        // System.out.println("Preço Médio: "+media); 
+
+
         /* Boxing
         • É o processo de conversão de um objeto tipo valor para um objeto
         tipo referência compatível. 
@@ -189,6 +193,7 @@ momento próximo pelo garbage collector            // seu escopo de execução �
         • Dificuldade para se realizar inserções e deleções
 
          */
+        
 
        sc.close();
     }
