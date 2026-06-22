@@ -176,6 +176,18 @@ momento próximo pelo garbage collector            // seu escopo de execução �
         • Encontrar primeira ocorrência com base em predicado:
         Integer result = list.stream().filter(x -> x > 4).findFirst().orElse(null);
 
+        Matrizes
+        • Em programação, "matriz" é o nome dado a arranjos bidimensionais
+        • Atenção: "vetor de vetores"
+        • Arranjo (array) é uma estrutura de dados: • Homogênea (dados do mesmo tipo)
+        • Ordenada (elementos acessados por meio de posições)
+        • Alocada de uma vez só, em um bloco contíguo de memória
+        • Vantagens:
+        • Acesso imediato aos elementos pela sua posição
+        • Desvantagens:
+        • Tamanho fixo
+        • Dificuldade para se realizar inserções e deleções
+        
          */
 
        sc.close();
