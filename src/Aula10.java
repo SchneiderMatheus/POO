@@ -100,7 +100,7 @@ momento próximo pelo garbage collector            // seu escopo de execução �
             sc.nextLine();
             System.out.println("Preço do produto: ");
             double price = sc.nextDouble();
-            vect[i] = new Product(name, price); // temos que instanciar assim pq cada "casinha" do vetor vai conter tomas infos do produto
+            vect[i] = new Product(name, price); // temos que instanciar assim pq cada "casinha" do vetor vai conter todas infos do produto
         }
         double soma =0;
         for(int i=0; i<vect.length; i++) {
@@ -187,7 +187,7 @@ momento próximo pelo garbage collector            // seu escopo de execução �
         • Desvantagens:
         • Tamanho fixo
         • Dificuldade para se realizar inserções e deleções
-        
+
          */
 
        sc.close();
