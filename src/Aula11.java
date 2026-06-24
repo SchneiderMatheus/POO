@@ -66,6 +66,19 @@ public class Aula11 {
         • Data-hora +/- tempo ➞ Data-hora
         • Data-hora 1, Data-hora 2 ➞ Duração
 
+        Principais tipos Java (versão 8+) 
+            • Data-hora local
+            LocalDate
+            LocalDateTime
+
+            • Data-hora global
+            Instant • Duração
+            Duration
+            
+            • Outros
+            ZoneId
+            ChronoUnit
+
 */
     }
 }
