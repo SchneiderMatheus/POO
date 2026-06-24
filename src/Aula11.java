@@ -1,4 +1,5 @@
 import java.time.LocalDate;
+import java.time.LocalDateTime;
 import java.util.Scanner;
 
 public class Aula11 {
@@ -82,7 +83,9 @@ public class Aula11 {
 
 */
         LocalDate d01 =LocalDate.now();
-        
-        System.out.println(d01);
+        LocalDateTime d02 = LocalDateTime.now();
+
+        System.out.println("d01 = "+d01);
+        System.out.println("d02 = "+d02);
     }
 }
