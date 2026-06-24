@@ -1,3 +1,4 @@
+import java.time.LocalDate;
 import java.util.Scanner;
 
 public class Aula11 {
@@ -74,11 +75,14 @@ public class Aula11 {
             • Data-hora global
             Instant • Duração
             Duration
-            
+
             • Outros
             ZoneId
             ChronoUnit
 
 */
+        LocalDate d01 =LocalDate.now();
+        
+        System.out.println(d01);
     }
 }
