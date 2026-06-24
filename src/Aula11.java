@@ -114,5 +114,7 @@ public class Aula11 {
         System.out.println("d09 = "+d09);
         System.out.println("d010 = "+d10);
         System.out.println("d011 = "+d11);
+        System.out.println("d011 = "+d11);
+        sc.close();
     }
 }
