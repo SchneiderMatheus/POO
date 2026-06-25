@@ -115,6 +115,23 @@ public class Aula11 {
         System.out.println("d010 = "+d10);
         System.out.println("d011 = "+d11);
         System.out.println("d011 = "+d11);
+
+
+        /*Date
+        Representa um INSTANTE
+
+        Pacote java.util
+
+        https://docs.oracle.com/javase/10/docs/api/java/util/Date.html
+
+        Um objeto Date internamente armazena:
+        • O número de milissegundos desde a meia noite do dia 1 de janeiro de
+        1970 GMT (UTC)
+        • GMT: Greenwich Mean Time (time zone)
+        • UTC: Coordinated Universal Time (time standard
+
+        
+         */
         sc.close();
     }
 }
