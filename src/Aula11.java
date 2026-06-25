@@ -130,7 +130,18 @@ public class Aula11 {
         • GMT: Greenwich Mean Time (time zone)
         • UTC: Coordinated Universal Time (time standard
 
-        
+        SimpleDateFormat
+        • https://docs.oracle.com/javase/10/docs/api/java/text/SimpleDateFormat.html
+        • Define formatos para conversão entre Date e String
+        • dd/MM/yyyy -> 23/07/2018
+        • dd/MM/yyyy HH:mm:ss -> 23/07/2018 15:42:07
+
+        Padrão ISO 8601 e classe Instant
+        • Formato: yyyy-MM-ddTHH:mm:ssZ
+        • Exemplo: "2018-06-25T15:42:07Z"
+        • Date y3 = Date.from(Instant.parse("2018-06-25T15:42:07Z"));
+
+
          */
         sc.close();
     }
