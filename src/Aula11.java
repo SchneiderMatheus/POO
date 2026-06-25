@@ -83,7 +83,7 @@ public class Aula11 {
             ZoneId
             ChronoUnit
 
-*/      
+  
         //DateTimeFormatter fmt1 = DateTimeFormatter.ofPattern("dd/MM/yyyy");
         DateTimeFormatter fmt2 = DateTimeFormatter.ofPattern("dd/MM/yyyy HH:mm");
 
@@ -115,6 +115,11 @@ public class Aula11 {
         System.out.println("d010 = "+d10);
         System.out.println("d011 = "+d11);
         System.out.println("d011 = "+d11);
+        */ 
+        LocalDate d04 = LocalDate.parse("2022-07-20");
+        LocalDateTime d05 = LocalDateTime.parse("2022-07-20T01:30:26");
+        Instant d06 = Instant.parse("2022-07-20T01:30:26Z");
+        
 
 
         /*Date
