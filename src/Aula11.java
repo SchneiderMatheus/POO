@@ -124,6 +124,7 @@ public class Aula11 {
         DateTimeFormatter fmt1 = DateTimeFormatter.ofPattern("dd/MM/yyyy");
         DateTimeFormatter fmt2 = DateTimeFormatter.ofPattern("dd/MM/yyyy HH:mm");
         DateTimeFormatter fmt3 = DateTimeFormatter.ofPattern("dd/MM/yyyy HH:mm").withZone(ZoneId.systemDefault()); //withZone(ZoneId.systemDefault())  isso puxa a data local
+        DateTimeFormatter fmt4 = DateTimeFormatter.ISO_DATE_TIME;
 
         System.out.println("d04 = "+d04.format(fmt1));
         System.out.println("d04 = "+fmt1.format(d04));
