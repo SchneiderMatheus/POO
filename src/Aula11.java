@@ -168,7 +168,7 @@ public class Aula11 {
 
          */
         // Converter data-hora global para local (precisa informar o timezone);
-        
+        ZoneId.getAvailableZoneIds();
         sc.close();
     }
 }
