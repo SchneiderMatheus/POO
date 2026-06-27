@@ -170,6 +170,7 @@ public class Aula11 {
         // Converter data-hora global para local (precisa informar o timezone);
         ZoneId.getAvailableZoneIds();
         LocalDate r1 = LocalDate.ofInstant(d06, ZoneId.systemDefault()); // convertendo uma data local de instant para data local do meu pc.
+        System.out.println(r1);
         sc.close();
     }
 }
