@@ -172,8 +172,12 @@ public class Aula11 {
         LocalDate r1 = LocalDate.ofInstant(d06, ZoneId.systemDefault()); // convertendo uma data local de instant para data local do meu pc.
 
         LocalDate r2 = LocalDate.ofInstant(d06, ZoneId.of("Portugal"));
-        System.out.println(r1);
-        System.out.println(r2);
+        LocalDateTime r3 = LocalDateTime.ofInstant(d06, ZoneId.systemDefault());
+        LocalDateTime r4 = LocalDateTime.ofInstant(d06, ZoneId.of("Portugal"));
+        System.out.println("r1 = "+r1);
+        System.out.println("r2 = "+r2);
+        System.out.println("r3 = "+r3);
+        System.out.println("r4 = "+r4);
         sc.close();
     }
 }
