@@ -1,9 +1,9 @@
 import java.util.Locale;
 import java.util.Scanner;
 
-import entities.Product;
+//import entities.Product;
 
-import java.util.Arrays;
+//import java.util.Arrays;
 
 public class Aula10 {
     public static void main(String[] args) {
