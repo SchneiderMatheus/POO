@@ -178,6 +178,7 @@ public class Aula11 {
         System.out.println("r2 = "+r2);
         System.out.println("r3 = "+r3);
         System.out.println("r4 = "+r4);
+        System.out.println("D04 DIA = "+d04.getDayOfMonth());
         sc.close();
     }
 }
