@@ -183,7 +183,7 @@ public class Aula11 {
         System.out.println("D04 DIA = "+d04.getYear());
 
 
-        System.out.println("D05 hora = "+d05.getHour());
+        System.out.println("D05 hora = "+d05.getHour()); // nao d apra pegar hora e data junto, pelo menos nao assim
         System.out.println("D05 hora = "+d05.getMinute());
         sc.close();
     }
