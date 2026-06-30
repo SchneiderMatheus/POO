@@ -1,3 +1,4 @@
+import java.time.Duration;
 import java.time.Instant;
 import java.time.LocalDate;
 import java.time.LocalDateTime;
@@ -205,6 +206,11 @@ public class Aula11 {
 
         System.out.println("pastWeekInstant = "+pastWeekInstant);
         System.out.println("nextWeekInstant = "+nextWeekInstant);
+        System.out.println("---------------------------------------------");
+
+        Duration t1 = Duration.between(pastWeekLocalDateTime,d05);
+
+        System.out.println("T1 dias = " + t1.toDays());
 
         sc.close();
     }
