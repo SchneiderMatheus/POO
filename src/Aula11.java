@@ -138,7 +138,7 @@ public class Aula11 {
          System.out.println("d05 = "+d05.format(fmt4));
          System.out.println("d06 = "+fmt5.format(d06));
          System.out.println("d06 = "+d06.toString());
-
+        System.out.println("---------------------------------------------");
 
 
         /*Date
@@ -185,6 +185,14 @@ public class Aula11 {
 
         System.out.println("D05 hora = "+d05.getHour()); // nao d apra pegar hora e data junto, pelo menos nao assim
         System.out.println("D05 hora = "+d05.getMinute());
+        System.out.println("---------------------------------------------");
+        // calculos com data-hora em java
+        LocalDate pastWeekLocalDate = d04.minusDays(7);
+        LocalDate nextWeekLocalDate = d04.plusDays(7);
+
+        System.out.println("pastWeekLocalDate = "+pastWeekLocalDate);
+        System.out.println("nextWeekLocalDate = "+nextWeekLocalDate);
+        
         sc.close();
     }
 }
