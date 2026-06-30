@@ -192,7 +192,13 @@ public class Aula11 {
 
         System.out.println("pastWeekLocalDate = "+pastWeekLocalDate);
         System.out.println("nextWeekLocalDate = "+nextWeekLocalDate);
-        
+
+        LocalDateTime pastWeekLocalDateTime = d05.minusDays(7);
+        LocalDateTime nextWeekLocalDateTime = d05.plusDays(7);
+
+        System.out.println("pastWeekLocalDateTime = "+pastWeekLocalDateTime);
+        System.out.println("nextWeekLocalDateTime = "+nextWeekLocalDateTime);
+
         sc.close();
     }
 }
