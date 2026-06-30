@@ -208,9 +208,13 @@ public class Aula11 {
         System.out.println("nextWeekInstant = "+nextWeekInstant);
         System.out.println("---------------------------------------------");
 
-        Duration t1 = Duration.between(pastWeekLocalDateTime,d05);
+        Duration t1 = Duration.between(pastWeekLocalDate.atStartOfDay(), d04.atStartOfDay()); //nao da pra calcular duração de localdate, precisa ser localdatetime ou converter
+        Duration t2 = Duration.between(nextWeekLocalDateTime,d05);
+        Duration t3 = Duration.between(pastWeekInstant, d06);
 
-        System.out.println("T1 dias = " + t1.toDays());
+        System.out.println("T1 dias = "+ t1.toDays());
+        System.out.println("T2 dias = " + t2.toDays());
+        System.out.println("T3 dias = "+ t3.toDays());
 
         sc.close();
     }
