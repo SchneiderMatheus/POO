@@ -3,6 +3,7 @@ import java.time.LocalDate;
 import java.time.LocalDateTime;
 import java.time.ZoneId;
 import java.time.format.DateTimeFormatter;
+import java.time.temporal.ChronoUnit;
 import java.util.Scanner;
 
 public class Aula11 {
@@ -198,6 +199,12 @@ public class Aula11 {
 
         System.out.println("pastWeekLocalDateTime = "+pastWeekLocalDateTime);
         System.out.println("nextWeekLocalDateTime = "+nextWeekLocalDateTime);
+
+        Instant pastWeekInstant = d06.minus(7, ChronoUnit.DAYS);
+        Instant nextWeekInstant = d06.plus(7, ChronoUnit.DAYS);
+
+        System.out.println("pastWeekInstant = "+pastWeekInstant);
+        System.out.println("nextWeekInstant = "+nextWeekInstant);
 
         sc.close();
     }
