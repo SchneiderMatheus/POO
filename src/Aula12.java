@@ -15,7 +15,10 @@ public class Aula12 {
         compilador
         • Referência: https://docs.oracle.com/javase/tutorial/java/javaOO/enum.html
 
-        
+        Exemplo:
+        Ciclo de vida de um pedido:
+        PendingPayment --> Processing --> Shipped --> Delivered -->
+                    billing         dispatch    deliver
         */
 
         sc.close();
