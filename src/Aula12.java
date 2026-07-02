@@ -27,6 +27,15 @@ public class Aula12 {
         PROCESSING : int = 1                                  <<enum constant>> PROCESSING : int = 1      
         SHIPPED : int = 2                                     <<enum constant>> SHIPPED : int = 2   
         DELIVERED : int = 3                                   <<enum constant>> DELIVERED : int = 3 
+
+        Vamos falar um pouco de design:
+
+        Categorias de classes
+        • Em um sistema orientado a objetos, de modo geral "tudo" é objeto.
+        • Por questões de design tais como organização, flexibilidade, reuso,
+        delegação, etc., há várias categorias de classes:
+        VIEWS        CONTROLLERS         ENTITIES           SERVICES            REPOSITORIES
+
         
         */
 
