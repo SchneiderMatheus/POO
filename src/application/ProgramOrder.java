@@ -3,7 +3,7 @@ package application;
 import java.sql.Date;
 
 import entities.Order;
-import entities.enums.OrderStatus;
+import entities.Enums.OrderStatus;
 
 public class ProgramOrder {
     public static void main(String[] args) {
@@ -14,7 +14,7 @@ public class ProgramOrder {
 		
 		OrderStatus os1 = OrderStatus.DELIVERED;
 		
-		OrderStatus os2 = OrderStatus.valueOf("DELIVERED");
+		OrderStatus os2 = OrderStatus.valueOf("DELIVERED"); // transforma uma string em enum;
 		
 		System.out.println(os1);
 		System.out.println(os2);
