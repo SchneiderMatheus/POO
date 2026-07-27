@@ -14,6 +14,16 @@ public class aula13 {
         empresas, sendo que a conta para empresa possui todos membros da conta
         comum, mais um limite de empréstimo e uma operação de realizar empréstimo.
 
+        DEFINIÇOES IMPORTANTES HERANÇA:
+        Relação "é um"
+
+        Generalização/especialização
+
+        Superclasse (classe base) / subclasse (classe derivada)
+
+        Herança / Extensão
+
+        Herança é uma associação entre calsses (e não entre objetos)
         
         */
     }
