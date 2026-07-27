@@ -24,7 +24,19 @@ public class aula13 {
         Herança / Extensão
 
         Herança é uma associação entre calsses (e não entre objetos)
+
+
+
+        UPCASTING     AND      DOWNCASTING
+
+        Upcasting
+        • Casting da subclasse para superclasse
+        • Uso comum: polimorfismo
         
-        */
+        Downcasting
+        • Casting da superclasse para subclasse
+        • Palavra instanceof
+        • Uso comum: métodos que recebem parâmetros genéricos (ex: Equals)
+                */
     }
 }
