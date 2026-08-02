@@ -58,6 +58,15 @@ public class aula13 {
         código
         • Avisamos ao compilador (boa prática)
 
+        Suponha que a operação de
+        saque possui uma taxa no valor
+        de 5.0. Entretanto, se a conta
+        for do tipo poupança, esta taxa
+        não deve ser cobrada.
+        Como resolver isso?
+        Resposta: sobrescrevendo o
+        método withdraw na subclasse
+        SavingsAccount
         
                         */
     }
