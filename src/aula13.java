@@ -68,6 +68,15 @@ public class aula13 {
         método withdraw na subclasse
         SavingsAccount
         
+
+        Palavra super
+        É possível chamar a implementação da superclasse usando a palavra super.
+        @Override
+        public void withdraw(double amount) {
+        super.withdraw(amount);
+        balance -= 2.0;
+        }
+        
                         */
     }
 }
