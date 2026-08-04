@@ -77,6 +77,20 @@ public class aula13 {
         balance -= 2.0;
         }
         
+        Classes e métodos final
+        • Palavra chave: final
+        • Classe: evita que a classe seja herdada
+        public final class SavingsAccount {
+        • Método: evita que o método sob seja sobreposto
+
+        Exemplo - Classe final
+        Suponha que você queira evitar que
+        sejam criadas subclasses de
+        SavingsAccount
+        public final class SavingsAccount {
+        (...)
+
+        
                         */
     }
 }
