@@ -25,6 +25,15 @@ public class Aula14 {
             RuntimeException
                 IndexOutOfBoundsException
                 NullPointerException
+
+    Por que exceções?
+    • O modelo de tratamento de exceções permite que erros sejam
+    tratados de forma consistente e flexível, usando boas práticas
+    • Vantagens:
+    • Delega a lógica do erro para a classe responsável por conhecer as regras que
+    podem ocasionar o erro
+    • Trata de forma organizada (inclusive hierárquica) exceções de tipos diferentes
+    • A exceção pode carregar dados quaisquer
  */
     }
 }
