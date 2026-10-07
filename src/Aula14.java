@@ -42,6 +42,15 @@ public class Aula14 {
     • Bloco catch
     • Contém o código a ser executado caso uma exceção ocorra
     • Deve ser especificado o tipo da exceção a ser tratada (upcasting é permitido)
+    Sintaxe
+    try {
+    }
+    catch (ExceptionType e) {
+    }
+    catch (ExceptionType e) {
+    }
+    catch (ExceptionType e) {
+    }
     
  */
     }
