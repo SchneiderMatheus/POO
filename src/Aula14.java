@@ -66,6 +66,16 @@ public class Aula14 {
     }
     finally {
     }
+
+    SUGESTÃO DE PACOTES "MODEL"
+
+    model
+        entities
+        enums
+        exception
+        services
+
+    
  */
     }
 }
