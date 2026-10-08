@@ -11,20 +11,20 @@ public class Aula14 {
         programa seja encerrado
 
         Hierarquia de exceções do Java
-    https://docs.oracle.com/javase/10/docs/api/java/lang/package-tree.html
-    Throwable
+        https://docs.oracle.com/javase/10/docs/api/java/lang/package-tree.html
+        Throwable
+            
+            Error
+                OutOfMemoryError
+                VirtualMachineError
+
+            Exception
         
-        Error
-            OutOfMemoryError
-            VirtualMachineError
+                IOException
 
-        Exception
-    
-            IOException
-
-            RuntimeException
-                IndexOutOfBoundsException
-                NullPointerException
+                RuntimeException
+                    IndexOutOfBoundsException
+                    NullPointerException
 
     Por que exceções?
     • O modelo de tratamento de exceções permite que erros sejam
