@@ -60,5 +60,12 @@ public class Aula15 {
         } catch (Exception e) {
         System.out.println("Error: "+e.getMessage());
         }
+        finally {
+            try {
+                
+            } catch (Exception e) {
+                // TODO: handle exception
+            }
+        }
     }
 }
