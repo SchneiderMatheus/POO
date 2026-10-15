@@ -1,4 +1,6 @@
+import java.io.BufferedReader;
 import java.io.File;
+import java.io.FileReader;
 import java.io.IOException;
 import java.util.Scanner;
 
@@ -17,7 +19,7 @@ public class Aula15 {
         • IOException (Exception)
         • https://docs.oracle.com/javase/10/docs/api/java/io/IOException.html
 
-            */
+            
         File file = new File("in.txt.txt");
         Scanner sc = null;
         try {
@@ -33,7 +35,6 @@ public class Aula15 {
                 sc.close();
             }
         }
-        /*
         Classes
         • FileReader (stream de leitura de caracteres a partir de arquivos)
         • https://docs.oracle.com/javase/10/docs/api/java/io/FileReader.html
@@ -42,7 +43,17 @@ public class Aula15 {
         • https://docs.oracle.com/javase/10/docs/api/java/io/BufferedReader.html
         • https://stackoverflow.com/questions/9648811/specific-difference-betweenbufferedreader-and-filereader
         
-        
+
         */
+        String path ="\"D:\\in.txt.txt\"";
+        FileReader fr = null;
+        BufferedReader br = null;
+
+        try {
+            fr = new FileReader(path);
+            br = new BufferedReader(fr);
+        } catch (Exception e) {
+            // TODO: handle exception
+        }
     }
 }
