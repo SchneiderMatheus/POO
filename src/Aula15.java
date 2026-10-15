@@ -33,6 +33,16 @@ public class Aula15 {
                 sc.close();
             }
         }
+        /*
+        Classes
+        • FileReader (stream de leitura de caracteres a partir de arquivos)
+        • https://docs.oracle.com/javase/10/docs/api/java/io/FileReader.html
 
+        • BufferedReader (mais rápido)
+        • https://docs.oracle.com/javase/10/docs/api/java/io/BufferedReader.html
+        • https://stackoverflow.com/questions/9648811/specific-difference-betweenbufferedreader-and-filereader
+        
+        
+        */
     }
 }
