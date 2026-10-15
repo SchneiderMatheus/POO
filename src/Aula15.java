@@ -1,3 +1,7 @@
+import java.io.File;
+import java.io.IOException;
+import java.util.Scanner;
+
 public class Aula15 {
     public static void main(String[] args) {
         /* 
@@ -12,7 +16,21 @@ public class Aula15 {
         
         • IOException (Exception)
         • https://docs.oracle.com/javase/10/docs/api/java/io/IOException.html
-        
+
             */
+        File file = new File("\\\\wsl.localhost\\Ubuntu\\home\\mathe\\exemplos\\in.txt");
+        Scanner sc = null;
+        try {
+            sc = new Scanner(file);
+            while (sc.hasNextLine()) {
+                System.out.println(sc.nextLine());
+            }
+        } catch (IOException e) {
+            System.out.println("Error: "+e.getMessage());
+        }
+        finally {
+            sc.close();
+        }
+
     }
 }
