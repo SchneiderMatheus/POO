@@ -18,7 +18,7 @@ public class Aula15 {
         • https://docs.oracle.com/javase/10/docs/api/java/io/IOException.html
 
             */
-        File file = new File("\"D:\\in.txt.txt\"");
+        File file = new File("in.txt.txt");
         Scanner sc = null;
         try {
             sc = new Scanner(file);
