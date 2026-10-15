@@ -18,7 +18,7 @@ public class Aula15 {
         • https://docs.oracle.com/javase/10/docs/api/java/io/IOException.html
 
             */
-        File file = new File("\\\\wsl.localhost\\Ubuntu\\home\\mathe\\exemplos\\in.txt");
+        File file = new File("d:\\in.txt");
         Scanner sc = null;
         try {
             sc = new Scanner(file);
@@ -29,7 +29,9 @@ public class Aula15 {
             System.out.println("Error: "+e.getMessage());
         }
         finally {
-            sc.close();
+            if (sc != null) {
+                sc.close();
+            }
         }
 
     }
