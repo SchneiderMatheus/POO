@@ -52,8 +52,13 @@ public class Aula15 {
         try {
             fr = new FileReader(path);
             br = new BufferedReader(fr);
+            String line = br.readLine();
+            while (line != null) {
+                System.out.println(line);
+                line = br.readLine();
+            }
         } catch (Exception e) {
-            // TODO: handle exception
+        System.out.println("Error: "+e.getMessage());
         }
     }
 }
