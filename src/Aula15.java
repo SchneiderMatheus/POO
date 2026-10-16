@@ -62,9 +62,14 @@ public class Aula15 {
         }
         finally {
             try {
-                
-            } catch (Exception e) {
-                // TODO: handle exception
+                if (br != null) {
+                    br.close();
+                }
+                if (fr != null) {
+                    fr.close();
+                }
+            } catch (IOException e) {
+                e.printStackTrace();
             }
         }
     }
