@@ -86,7 +86,7 @@ public class Aula15 {
          * 
          */
 
-        String path = "C:\\temp\\in.txt";
+        String path = "/home/mathe/estudos/POO/in.txt.txt";
         try (BufferedReader br = new BufferedReader(new FileReader(path))) {
             String line = br.readLine();
             while (line != null) {
