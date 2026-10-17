@@ -1,6 +1,8 @@
 import java.io.BufferedReader;
+import java.io.BufferedWriter;
 import java.io.File;
 import java.io.FileReader;
+import java.io.FileWriter;
 import java.io.IOException;
 import java.util.Scanner;
 
@@ -108,12 +110,11 @@ public class Aula15 {
         */
        String[] lines = new String[] { "Good morning", "Good afternoon", "Good night" };
 
-        String path = "/home/mathe/estudos/POO/out.txt";
-        try (BufferedReader br = new BufferedReader(new FileReader(path))) {
-            String line = br.readLine();
-            while (line != null) {
-                System.out.println(line);
-                line = br.readLine();
+        String path = "/home/mathe/estudos/POO/out.txt"; //criando o arquivo
+        try (BufferedWriter bw = new BufferedWriter(new FileWriter(path))) {
+            for (String string : lines) {
+                bw.write(string);
+                bw.newLine();
             }
         } catch (IOException e) {
             System.out.println("Error: " + e.getMessage());
