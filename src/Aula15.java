@@ -19,22 +19,22 @@ public class Aula15 {
          * • IOException (Exception)
          * • https://docs.oracle.com/javase/10/docs/api/java/io/IOException.html
          * 
-         * 
-         * File file = new File("in.txt.txt");
-         * Scanner sc = null;
-         * try {
-         * sc = new Scanner(file);
-         * while (sc.hasNextLine()) {
-         * System.out.println(sc.nextLine());
-         * }
-         * } catch (IOException e) {
-         * System.out.println("Error: "+e.getMessage());
-         * }
-         * finally {
-         * if (sc != null) {
-         * sc.close();
-         * }
-         * }
+         */
+        File file = new File("in.txt.txt");
+        Scanner sc = null;
+        try {
+            sc = new Scanner(file);
+            while (sc.hasNextLine()) {
+                System.out.println(sc.nextLine());
+            }
+        } catch (IOException e) {
+            System.out.println("Error: " + e.getMessage());
+        } finally {
+            if (sc != null) {
+                sc.close();
+            }
+        }
+        /*
          * Classes
          * • FileReader (stream de leitura de caracteres a partir de arquivos)
          * • https://docs.oracle.com/javase/10/docs/api/java/io/FileReader.html
@@ -45,36 +45,35 @@ public class Aula15 {
          * betweenbufferedreader-and-filereader
          * 
          * 
-         * 
-         * String path = "/home/mathe/estudos/POO/in.txt.txt";
-         * 
-         * FileReader fr = null;
-         * BufferedReader br = null;
-         * 
-         * try {
-         * fr = new FileReader(path);
-         * br = new BufferedReader(fr);
-         * String line = br.readLine();
-         * while (line != null) {
-         * System.out.println(line);
-         * line = br.readLine();
-         * }
-         * } catch (Exception e) {
-         * System.out.println("Error: "+e.getMessage());
-         * }
-         * finally {
-         * try {
-         * if (br != null) {
-         * br.close();
-         * }
-         * if (fr != null) {
-         * fr.close();
-         * }
-         * } catch (IOException e) {
-         * e.printStackTrace();
-         * }
-         * }
-         * 
+         */
+        String path = "/home/mathe/estudos/POO/in.txt.txt";
+
+        FileReader fr = null;
+        BufferedReader br = null;
+
+        try {
+            fr = new FileReader(path);
+            br = new BufferedReader(fr);
+            String line = br.readLine();
+            while (line != null) {
+                System.out.println(line);
+                line = br.readLine();
+            }
+        } catch (Exception e) {
+            System.out.println("Error: " + e.getMessage());
+        } finally {
+            try {
+                if (br != null) {
+                    br.close();
+                }
+                if (fr != null) {
+                    fr.close();
+                }
+            } catch (IOException e) {
+                e.printStackTrace();
+            }
+        }
+        /*
          * Bloco try-with-resources
          * • É um bloco try que declara um ou mais recursos, e garante que esses
          * recursos serão fechados ao final do bloco
