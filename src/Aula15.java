@@ -111,7 +111,7 @@ public class Aula15 {
        String[] lines = new String[] { "Good morning", "Good afternoon", "Good night" };
 
         String path = "/home/mathe/estudos/POO/out.txt"; //criando o arquivo
-        try (BufferedWriter bw = new BufferedWriter(new FileWriter(path))) {
+        try (BufferedWriter bw = new BufferedWriter(new FileWriter(path, true))) {
             for (String string : lines) {
                 bw.write(string);
                 bw.newLine();
