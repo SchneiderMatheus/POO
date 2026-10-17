@@ -83,9 +83,32 @@ public class Aula15 {
          * .html
          * 
          * 
-         */
+         
 
         String path = "/home/mathe/estudos/POO/in.txt.txt";
+        try (BufferedReader br = new BufferedReader(new FileReader(path))) {
+            String line = br.readLine();
+            while (line != null) {
+                System.out.println(line);
+                line = br.readLine();
+            }
+        } catch (IOException e) {
+            System.out.println("Error: " + e.getMessage());
+        }
+
+        Classes
+        • FileWriter (stream de escrita de caracteres em de arquivos)
+        • https://docs.oracle.com/javase/10/docs/api/java/io/FileWriter.html
+        • Cria/recria o arquivo: new FileWriter(path)
+        • Acrescenta ao arquivo existente: new FileWriter(path, true)
+        • BufferedWriter (mais rápido)
+        • https://docs.oracle.com/javase/10/docs/api/java/io/BufferedWriter.html
+
+
+        */
+       String[] lines = new String[] { "Good morning", "Good afternoon", "Good night" };
+
+        String path = "/home/mathe/estudos/POO/out.txt";
         try (BufferedReader br = new BufferedReader(new FileReader(path))) {
             String line = br.readLine();
             while (line != null) {
