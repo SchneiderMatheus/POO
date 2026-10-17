@@ -45,7 +45,8 @@ public class Aula15 {
         
 
         */
-        String path = "\\\\wsl$\\Ubuntu\\home\\mathe\\estudos\\POO\\in.txt.txt";
+        String path = "/home/mathe/estudos/POO/in.txt.txt";
+
         FileReader fr = null;
         BufferedReader br = null;
 
