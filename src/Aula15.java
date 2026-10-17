@@ -19,7 +19,7 @@ public class Aula15 {
          * • IOException (Exception)
          * • https://docs.oracle.com/javase/10/docs/api/java/io/IOException.html
          * 
-         */
+         
         File file = new File("in.txt.txt");
         Scanner sc = null;
         try {
@@ -45,7 +45,7 @@ public class Aula15 {
          * betweenbufferedreader-and-filereader
          * 
          * 
-         */
+         
         String path = "/home/mathe/estudos/POO/in.txt.txt";
 
         FileReader fr = null;
