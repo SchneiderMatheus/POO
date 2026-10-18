@@ -127,9 +127,9 @@ ________________________________________________________________________________
         System.out.println("Enter a folder path: ");
         String strPath = sc.nextLine();
         File path = new File(strPath);
-        System.out.println("getPath: " + path.getPath());
-        System.out.println("getParent: " + path.getParent());
-        System.out.println("getName: " + path.getName())
+        System.out.println("getPath: " + path.getPath()); //pega todo path
+        System.out.println("getParent: " + path.getParent());// só o caminho
+        System.out.println("getName: " + path.getName());//pega o nome
         
     }
 }
