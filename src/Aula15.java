@@ -8,6 +8,7 @@ import java.util.Scanner;
 
 public class Aula15 {
     public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
         /*
          * Lendo arquivo texto com classes File e Scanner
          * 
@@ -36,7 +37,7 @@ public class Aula15 {
                 sc.close();
             }
         }
-        /*
+_______________________________________________________________________________________________________________________________
          * Classes
          * • FileReader (stream de leitura de caracteres a partir de arquivos)
          * • https://docs.oracle.com/javase/10/docs/api/java/io/FileReader.html
@@ -75,7 +76,8 @@ public class Aula15 {
                 e.printStackTrace();
             }
         }
-        /*
+     _______________________________________________________________________________________________________________________________
+
          * Bloco try-with-resources
          * • É um bloco try que declara um ou mais recursos, e garante que esses
          * recursos serão fechados ao final do bloco
@@ -97,7 +99,7 @@ public class Aula15 {
         } catch (IOException e) {
             System.out.println("Error: " + e.getMessage());
         }
-
+_______________________________________________________________________________________________________________________________
         Classes
         • FileWriter (stream de escrita de caracteres em de arquivos)
         • https://docs.oracle.com/javase/10/docs/api/java/io/FileWriter.html
@@ -107,7 +109,7 @@ public class Aula15 {
         • https://docs.oracle.com/javase/10/docs/api/java/io/BufferedWriter.html
 
 
-        */
+        
        String[] lines = new String[] { "Good morning", "Good afternoon", "Good night" };
 
         String path = "/home/mathe/estudos/POO/out.txt"; //criando o arquivo
@@ -119,5 +121,15 @@ public class Aula15 {
         } catch (IOException e) {
             System.out.println("Error: " + e.getMessage());
         }
+_______________________________________________________________________________________________________________________________
+        INFORMAÇÕES SOBRE CAMINHO DO0 ARQUIVO:
+        */
+        System.out.println("Enter a folder path: ");
+        String strPath = sc.nextLine();
+        File path = new File(strPath);
+        System.out.println("getPath: " + path.getPath());
+        System.out.println("getParent: " + path.getParent());
+        System.out.println("getName: " + path.getName())
+        
     }
 }
