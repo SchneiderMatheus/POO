@@ -22,6 +22,21 @@ public class Aula16 {
             
         Pra quê interfaces?
         • Para criar sistemas com baixo acoplamento e flexíveis.
+
+
+        Inversão de controle, Injeção de dependência
+
+        • Acoplamento forte
+        • A classe RentalService conhece a dependência concreta
+        • Se a classe concreta mudar, é preciso mudar a classe RentalService
+
+        class RentalService {
+            (...)
+            private BrazilTaxService taxService;
+
+
+        
+
  */
     }
 }
