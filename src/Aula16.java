@@ -53,6 +53,10 @@ public class Aula16 {
                 this.pricePerHour = pricePerHour;
                 this.pricePerDay = pricePerDay;
                 this.taxService = taxService;
+
+            • Inversão de controle
+            Padrão de desenvolvimento que consiste em retirar da classe aresponsabilidade de instanciar suas 
+            dependências.
 }
  */
     }
