@@ -53,11 +53,17 @@ public class Aula16 {
                 this.pricePerHour = pricePerHour;
                 this.pricePerDay = pricePerDay;
                 this.taxService = taxService;
-
+                }
             • Inversão de controle
             Padrão de desenvolvimento que consiste em retirar da classe aresponsabilidade de instanciar suas 
             dependências.
-}
+
+            Injeção de dependência
+        É uma forma de realizar a inversão de controle: um componente externoinstancia a dependência, que é então injetada no objeto "pai". 
+        Pode serimplementada de várias formas: 
+        • Construtor 
+        • Classe de instanciação (builder / factory) 
+        • Container / framework
  */
     }
 }
