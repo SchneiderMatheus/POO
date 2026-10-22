@@ -41,7 +41,19 @@ public class Aula16 {
             (...)
             private TaxService taxService;
         
-
+        Injeção de dependência por meio de construtor
+        class Program {
+            static void Main(string[] args) {
+            (...)
+        RentalService rentalService = new RentalService(pricePerHour, pricePerDay, newBrazilTaxService());
+        
+        class RentalService {
+            private TaxService taxService;
+            public RentalService(double pricePerHour, double pricePerDay, TaxService taxService) {
+                this.pricePerHour = pricePerHour;
+                this.pricePerDay = pricePerDay;
+                this.taxService = taxService;
+}
  */
     }
 }
