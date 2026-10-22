@@ -34,7 +34,12 @@ public class Aula16 {
             (...)
             private BrazilTaxService taxService;
 
-
+         Acoplamento fraco
+        • A classe RentalService não conhece a dependência concreta
+        • Se a classe concreta mudar, a classe RentalService não muda nada
+        class RentalService {
+            (...)
+            private TaxService taxService;
         
 
  */
