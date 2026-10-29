@@ -64,6 +64,18 @@ public class Aula16 {
         • Construtor 
         • Classe de instanciação (builder / factory) 
         • Container / framework
+
+        Herdar vs. cumprir contrato:
+
+        Aspectos em comum entre herança e interfaces
+        • Relação é-um
+        • Generalização/especialização
+        • Polimorfismo
+
+        Diferença fundamental 
+        • Herança => reuso
+        • Interface => contrato a ser cumprido
  */
-    }
+
+   }
 }
