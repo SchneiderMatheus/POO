@@ -75,6 +75,8 @@ public class Aula16 {
         Diferença fundamental 
         • Herança => reuso
         • Interface => contrato a ser cumprido
+
+        E se eu precisar implementar Shape como interface, porém também quiserdefinir uma estrutura comum reutilizável para todas figuras?
  */
 
    }
