@@ -95,6 +95,13 @@ public class Aula16 {
         Classe Inferior (ComboDevice):Na base do diagrama, a classe ComboDevice herda simultaneamente de ambas as classes intermediárias (Scanner e Printer), 
         o que é representado por duas setas de herança subindo a partir dela.   Esta disposição geométrica forma a figura de um diamante entre as quatro classes, 
         evidenciando o conflito clássico de herança múltipla onde a classe inferior pode receber caminhos ambíguos para os membros da classe original Device)
+
+
+        Porém, uma classe pode implementar mais de uma interface:
+        ATENÇÃO:
+        
+        Isso NÃO é herança múltipla,pois NÃO HÁ REUSO na relaçãoentre ComboDevice e asinterfaces Scanner e Printer.
+        ComboDevide não herda, massim implementa as interfaces(cumpre o contrato).
  */
 
    }
