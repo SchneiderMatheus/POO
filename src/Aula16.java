@@ -77,6 +77,12 @@ public class Aula16 {
         • Interface => contrato a ser cumprido
 
         E se eu precisar implementar Shape como interface, porém também quiserdefinir uma estrutura comum reutilizável para todas figuras?
+
+
+        Herança múltipla e o problema do diamante :
+
+        A herança múltipla pode gerar oproblema do diamante: umaambiguidade causada pelaexistência do mesmo método emmais de uma superclasse.
+        Herança múltipla não épermitida na maioria das linguagens!
  */
 
    }
