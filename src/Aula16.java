@@ -99,7 +99,14 @@ public class Aula16 {
 
         Porém, uma classe pode implementar mais de uma interface:
         ATENÇÃO:
-        
+
+        A imagem apresenta uma solução para o "Problema do diamante" em orientação a objetos por meio da combinação de herança de classe e implementação de interfaces em um diagrama UML. 
+        No canto superior esquerdo, encontra-se a classe abstrata Device, que possui o atributo privado - serialNumber : String e o método abstrato + processDoc(doc : String) : void. 
+        Diretamente abaixo dela, a classe concreta ComboDevice herda diretamente de Device (indicado pela seta contínua com ponta triangular) e implementa seus próprios métodos + processDoc(doc : String) : void, + scan() : String e + print(doc : String) : void. 
+        À direita, posicionadas de forma empilhada, estão duas interfaces identificadas pelo estereótipo <<interface>>: a interface Scanner (no topo), que define o método + scan() : String, e a interface Printer (abaixo), que define o método + print(doc : String) : void. 
+        A classe ComboDevice conecta-se a ambas as interfaces por meio de linhas tracejadas com pontas triangulares vazias, 
+        indicando que ela implementa os contratos das interfaces Scanner e Printer, evitando a herança múltipla direta e resolvendo a ambiguidade do diamante.
+
         Isso NÃO é herança múltipla,pois NÃO HÁ REUSO na relaçãoentre ComboDevice e asinterfaces Scanner e Printer.
         ComboDevide não herda, massim implementa as interfaces(cumpre o contrato).
  */
