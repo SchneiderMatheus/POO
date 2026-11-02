@@ -83,6 +83,18 @@ public class Aula16 {
 
         A herança múltipla pode gerar oproblema do diamante: umaambiguidade causada pelaexistência do mesmo método emmais de uma superclasse.
         Herança múltipla não épermitida na maioria das linguagens!
+
+        (Classe Superior (Device):No nível mais alto, encontra-se a classe base abstrata ou genérica chamada Device.   
+        Contém o atributo - serialNumber : String e o método + processDoc(doc : String) : void.  
+        
+        Classes Intermediárias (Scanner e Printer):Abaixo de Device e herdando dela, estão duas classes: Scanner (à esquerda) e Printer (à direita). 
+        As setas em forma de triângulo vazio indicam a herança apontando para Device.   
+        A classe Scanner possui o atributo/método + processDoc(doc : String) : void e o método específico + scan() : String.   
+        A classe Printer possui o método + processDoc(doc : String) : void e o método específico + print(doc : String) : void.   
+        
+        Classe Inferior (ComboDevice):Na base do diagrama, a classe ComboDevice herda simultaneamente de ambas as classes intermediárias (Scanner e Printer), 
+        o que é representado por duas setas de herança subindo a partir dela.   Esta disposição geométrica forma a figura de um diamante entre as quatro classes, 
+        evidenciando o conflito clássico de herança múltipla onde a classe inferior pode receber caminhos ambíguos para os membros da classe original Device)
  */
 
    }
