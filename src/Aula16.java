@@ -122,6 +122,12 @@ public class Aula16 {
         • Outras vantagens: • Manter a retrocompatibilidade com sistemas existentes
             • Permitir que "interfaces funcionais" (que devem conter apenas um método)
             possam prover outras operações padrão reutilizáveis
+
+        
+        Problema exemplo
+        Fazer um programa para ler uma quantia e a duração em meses de umempréstimo. 
+        Informar o valor a ser pago depois de decorrido o prazo doempréstimo, conforme regras de juros do Brasil. 
+        A regra de cálculo dejuros do Brasil é juro composto padrão de 2% ao mês.
  */
 
    }
