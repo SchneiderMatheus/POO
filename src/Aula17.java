@@ -29,13 +29,20 @@ public class Aula17 {
         Deseja-se fazer um programa que leia uma quantidade N, e depois N nomes de
         pessoas. Ao final, imprima esses números de forma organizada conforme
         exemplo. Em seguida, informar qual foi o primeiro valor informado.
-        
+
         How many values? 3 Criar um serviço de impressão:
         10
         8
         23
         [10, 8, 23]
         First: 10
+
+        Solução com generics
+        Deseja-se fazer um programa que leia uma quantidade N, e depois N números
+        inteiros. Ao final, imprima esses números de forma organizada conforme
+        exemplo. Em seguida, informar qual foi o primeiro valor informado.
+
+        Usando Generics
          */
     }
 }
