@@ -127,18 +127,6 @@ public class Aula17 {
         }
         }
 
-
-        Problema motivador 1 (reuso)
-    How many values? 3 Criar um serviço de impressão:
-    10
-    8
-    23
-    [10, 8, 23]
-    First: 10
-    
-    Deseja-se fazer um programa que leia uma quantidade N, e depois N números
-    inteiros. Ao final, imprima esses números de forma organizada conforme
-    exemplo. Em seguida, informar qual foi o primeiro valor informado.
          */
     }
 }
