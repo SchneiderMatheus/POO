@@ -127,6 +127,21 @@ public class Aula17 {
         }
         }
 
+
+        Princípio get/put - covariância
+        List<Integer> intList = new ArrayList<Integer>();
+        intList.add(10);
+        intList.add(5);
+
+        List<? extends Number> list = intList;
+
+        Number x = list.get(0);
+
+        list.add(20); // erro de compilacao
+
+
+        get - OK
+        put - ERROR
          */
     }
 }
