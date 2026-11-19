@@ -163,6 +163,13 @@ public class Aula17 {
         • Tipos comuns (String, Date, Integer, Double, etc.) já possuem
         implementação para essas operações. Classes personalizadas
         precisam sobrepô-las.
+
+        Equals
+        Método que compara se o objeto é igual a outro, retornando
+        true ou false.
+        String a = "Maria";
+        String b = "Alex";
+        System.out.println(a.equals(b));
          */
     }
 }
