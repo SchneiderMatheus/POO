@@ -178,6 +178,12 @@ public class Aula17 {
         String b = "Alex";
         System.out.println(a.hashCode());
         System.out.println(b.hashCode());
+
+        Regra de ouro do HashCode
+        • Se o hashCode de dois objetos for diferente, então os dois objetos são
+        diferentes
+        • Se o código de dois objetos for igual, muito provavelmente os objetos
+        são iguais (pode haver colisão)
          */
     }
 }
