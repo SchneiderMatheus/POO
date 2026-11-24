@@ -184,6 +184,18 @@ public class Aula17 {
         diferentes
         • Se o código de dois objetos for igual, muito provavelmente os objetos
         são iguais (pode haver colisão)
+
+        Set<T>
+        • Representa um conjunto de elementos (similar ao da Álgebra)
+        • Não admite repetições
+        • Elementos não possuem posição
+        • Acesso, inserção e remoção de elementos são rápidos
+        • Oferece operações eficientes de conjunto: interseção, união, diferença.
+        • Principais implementações:
+        • HashSet - mais rápido (operações O(1) em tabela hash) e não ordenado
+        • TreeSet - mais lento (operações O(log(n)) em árvore rubro-negra) e ordenado pelo
+        compareTo do objeto (ou Comparator)
+        • LinkedHashSet - velocidade intermediária e elementos na ordem em que são adicionados
          */
     }
 }
