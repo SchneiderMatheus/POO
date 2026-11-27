@@ -214,6 +214,14 @@ public class Aula17 {
         • Lembre-se: String, Integer, Double, etc. já possuem equals e hashCode
         • Se hashCode e equals NÃO estiverem implementados:
         • Compara as referências (ponteiros) dos objetos.
+
+        Recordando as implementações
+        • Principais implementações:
+        • HashSet - mais rápido (operações O(1) em tabela hash) e não ordenado
+        • TreeSet - mais lento (operações O(log(n)) em árvore rubro-negra) e ordenado
+        pelo compareTo do objeto (ou Comparator)
+        • LinkedHashSet - velocidade intermediária e elementos na ordem em que são
+        adicionados
          */
     }
 }
