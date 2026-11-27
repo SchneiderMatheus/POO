@@ -207,6 +207,13 @@ public class Aula17 {
         • addAll(other) - união: adiciona no conjunto os elementos do outro conjunto, sem repetição
         • retainAll(other) - interseção: remove do conjunto os elementos não contitos em other
         • removeAll(other) - diferença: remove do conjunto os elementos contidos em other
+
+        Como as coleções Hash testam igualdade?
+        • Se hashCode e equals estiverem implementados:
+        • Primeiro hashCode. Se der igual, usa equals para confirmar.
+        • Lembre-se: String, Integer, Double, etc. já possuem equals e hashCode
+        • Se hashCode e equals NÃO estiverem implementados:
+        • Compara as referências (ponteiros) dos objetos.
          */
     }
 }
